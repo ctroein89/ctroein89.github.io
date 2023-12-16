@@ -1,0 +1,41 @@
+@media (prefers-color-scheme: dark) {
+ :root {
+	 --body-bg: #111;
+	 --body-color: #DDD;
+ }
+}
+@media (prefers-color-scheme: light) {
+ :root {
+	 --body-bg: #EEE;
+	 --body-color: #444;
+ }
+}
+
+html {
+	--text-color-normal: #0a244d;
+	--text-color-light: #8cabd9;
+}
+html[data-theme='dark'] {
+	--text-color-normal: hsl(210, 10%, 62%);
+	--text-color-light: hsl(210, 15%, 35%);
+	--text-color-richer: hsl(210, 50%, 72%);
+	--text-color-highlight: hsl(25, 70%, 45%);
+}
+
+body {
+	margin:40px
+	auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:12px;
+	text-align: justify;
+	text-justify: inter-word;
+	color:var(--body-color);
+	background-color:var(--body-bg);
+	padding:0 10px
+}
+h1,h2,h3 {
+	line-height:1.2
+	font-size:18px;
+}
+

@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Some hot takes</title>
+		<link rel="stylesheet" href="../style.css" type="text/css"></style>
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>
+				Abstractions Don't Remove Complexity
+			</h1>
+			<p>
+				Abstraction is taking logic, and bundling it in such a way that you have
+				a simpler inferface. Complexity is the number of internal interactions
+				that need to happen to make the program work. Abstraction merely hides
+				complexity, but it doesn't reduce complexity (any may actually increase 
+				it <a href="#footer1">[1]</a>).
+			</p>
+			<p>
+				The more that I code, the less that I believe that abstraction can
+				remove or reduce complexity. Some times, a good abstraction actually
+				increases complexity. Abstraction can be more ergonomic to call, but the
+				complexity will always there.
+			</p>
+			<p>
+				If a system needs to interact with Kafka, the Kafka library should be
+				exposed at the top level. Network requests and routing will
+				eventually become the calling code's problem, even if to just do
+				something as basic as running code on an ARM64 machine. In theory,
+				updating Kafka should be as simple as updating a dependency, and then
+				rebuilding: but if I don't own the calling code, I can't update that
+				dependency independently and I can't fix my problem.
+			</p>
+
+			<h2>
+				Take Ownership and Lift Up Complexity
+			</h2>
+			<p>
+				A system should take ownership of its complexity, and lift complexity
+				up. A system should favor direct, lower-level implementations where
+				possible, and directly invoke and initialize caching and networking in
+				the main function, which puts configuration of that code directly in the
+				configuration of the service. Be explicit, and avoid abstractions.
+			</p>
+			<p>
+				Take on dependencies to solve problems, instead of selecting platforms
+				to avoid having problems be your problem. A managed Kafka, Redis or
+				OpenSearch cluster running in the cloud means that you don't have to
+				deal with the cluster on a day-to-day basis, but when your cloud starts
+				failing, give yourself the space to work around the problem without a
+				total re-write.
+			</p>
+		</main>
+		<footer>
+			<hr>
+			<ol>
+				<li id="footer1">
+					As soon as an abstraction needs to retain state, it starts leaking its
+					complexity into it's callers.
+					<br>
+					iOS UI libraries end up suffering because UIKit components are
+					stateful, but is also the way to render native UI elements. One can
+					create replacement buttons, but they won't look like the UIKit buttons
+					that iOS users expect. Trying to wrap UIKit with alternative
+					abstractions performs poorly, because UIKit is optimized around
+					UIKit's lifecycle that's tied to UIKit's abstractions. In other words,
+					it's impossible to re-abstract UIKit with a different abstraction:
+					the result will necessarily be less performant, and harder to work
+					with, than just using UIKit directly.
+				</li>
+			</ol>
+		</footer>
+	</body>
+</html>
