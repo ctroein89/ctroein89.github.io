@@ -21,9 +21,28 @@
 			</p>
 			<p>
 				The more that I code, the less that I believe that abstraction can
-				remove or reduce complexity. Some times, a good abstraction actually
+				remove or reduce complexity. Some times, a good abstraction still
 				increases complexity. Abstraction can be more ergonomic to call, but the
 				complexity will always there.
+			</p>
+			<p>
+				Some differentiate between essential and accidental complexity:
+				essential complexity is required by the problem being solved, and
+				accidental is based on the organization. If you remove as much
+				accidental complexity as possible, what's left is going to be essential
+				complexity. And for abstractions, that's somewhat true. But I also posit
+				that the abstraction itself is a friction, that itself has a cost
+				through existing.
+			</p>
+
+			<h2>
+				All Things Being Equal, Ownership Is Simpler than Abstraction
+			</h2>
+			<p>
+				A system should take ownership of its complexity, and lift complexity
+				up. A system should favor direct, lower-level implementations where
+				possible, and put configuration of that code directly in the
+				configuration of the service. Be explicit.
 			</p>
 			<p>
 				If a system needs to interact with Kafka, the Kafka library should be
@@ -31,27 +50,32 @@
 				eventually become the calling code's problem, even if to just do
 				something as basic as running code on an ARM64 machine. In theory,
 				updating Kafka should be as simple as updating a dependency, and then
-				rebuilding: but if I don't own the calling code, I can't update that
-				dependency independently and I can't fix my problem.
-			</p>
-
-			<h2>
-				Take Ownership and Lift Up Complexity
-			</h2>
-			<p>
-				A system should take ownership of its complexity, and lift complexity
-				up. A system should favor direct, lower-level implementations where
-				possible, and directly invoke and initialize caching and networking in
-				the main function, which puts configuration of that code directly in the
-				configuration of the service. Be explicit, and avoid abstractions.
+				rebuilding. But if the platform controls the Kafka dependency, then
+				you can only update the platform, and you have to rely on the platform's
+				specific documentation for how to manage Kafka.
 			</p>
 			<p>
 				Take on dependencies to solve problems, instead of selecting platforms
-				to avoid having problems be your problem. A managed Kafka, Redis or
+				to avoid direct responsibility of problems. A managed Kafka, Redis or
 				OpenSearch cluster running in the cloud means that you don't have to
-				deal with the cluster on a day-to-day basis, but when your cloud starts
-				failing, give yourself the space to work around the problem without a
-				total re-write.
+				deal with the cluster on a day-to-day basis, but you still own the
+				health of system, whether or not your cloud provider is managing it (
+				and you always have the option of replacing your cloud provider).
+			</p>
+
+			<h2>
+				To Wit: PySpark Is Bad
+			</h2>
+			<p>
+				This all leading up to a particular take: PySpark is overly complex for
+				what it does. In theory, it's supposed to make scaling and batching
+				"not my problem", but I've broken PySpark jobs because I didn't really
+				think about how system limitations would impact me. If I have to worry
+				about memory limitations and networking and scaling for a system that's
+				supposed to handle that for me, I'd rather directly handle the
+				cross-process/cross-machine communication myself, directly via
+				dependencies that I control. I want my code to show it's sharp-edges to
+				me.
 			</p>
 		</main>
 		<footer>
