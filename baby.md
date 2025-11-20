@@ -3,7 +3,7 @@
 This is a summary of what I learnt when doing research when my daughter was born, and is written from a dad's perspective. For reading this, remember 3 ideas:
 1. This guide reflects my research at the time that I did it, and new information may impact my recommendations.
 2. This guide is written to work for both a New York City walk-up and an elevator apartment building, and may not work for a different lifestyle.
-3. Weight is going to be a problem - Mom is going to be recovering from the pregnancy, and grandparents may not have the stregth to begin with
+3. Weight is going to be a problem, especially in a walk-up - Mom is going to be recovering from the pregnancy, and grandparents may not have the stregth to begin with
 
 ## Car Seat
 Your baby should not stay in a car seat for longer than [2 hours per day according to the NHS](https://elht.nhs.uk/services/maternity-and-newborn-services/keeping-your-baby-safe#:~:text=Your%20baby%20should%20not%20be,at%20least%20every%20two%20hours). Therefore, the car seat is only to be temporarily used when traveling. Therefore, don't buy a car seat-stroller like the Doona Plus Car Seat: as far as I can tell, it's solving the wrong set of problems.
@@ -31,7 +31,7 @@ If you can't get a car seat with an integrated LATCH system in the seat, be awar
 "European belt routing" refers to when the seat belt goes behind (from the baby's perspective) the car seat, which is generally safer in the event of a crash. The alternative (I assume "American belt routing") is that the seat belt exclusively over the lap of the infant. I picked the [Nuna Pipa rx + Pipa Relx Base](https://nunababy.com/usa/pipa-rx-infant-car-seat-with-relx-base) for this reason (partially because I wasn't aware of the Nuna Urbn).
 
 ### Weight and Size
-For an infant car seat, favor a lighter seat, so that you can secure your baby into the car seat before putting the car seat into the car. Installing a newborn into a car seat is hard enough, so don't over complicate it by having to contort to fit into the backseat of the car at the same time.
+For an infant car seat, favor a lighter seat, so that you can secure your baby into the car seat before putting the car seat into the car. Installing a newborn into a car seat is hard enough, so don't over complicate it by having to contort to fit into the backseat of the car at the same time, or having to struggle at your current strength.
 
 With the same thinking, look for a car seat that attaches to a stroller, instead of car seat that converts into a stroller. That's bulk (both weight and size) that you don't want to be lifting into the car at the same time as you are trying to put your baby in.
 
@@ -53,7 +53,7 @@ For picking a "light" stroller, try picking it up once folded. In my experience,
 
 However, a heavy stroller will have more inertia, and therefore be a more comfortable ride. The suspension seems to work better when the stroller has more mass.
 
-We started with a 17lb travel stroller, which worked great for carrying it up and down the stairs in our walk-up apartment. But when we went outside of our immediate area, it became very clear that the stroller's suspension as insufficient for the state the of the sidewalks we were walking over. And when we moved to an elevator building, we mostly stopped using the lightweight stroller.
+We started with a 17lb travel stroller, which worked great for carrying it up and down the stairs in our walk-up apartment. But when we went outside of our immediate area, it became very clear that the stroller's suspension was insufficient for the state the of the sidewalks we were walking over. And when we moved to an elevator building, we mostly stopped using the lightweight stroller, because weight no longer was as much of an issue.
 
 ### Folding mechanism
 One-handed, three-part folding is amazing. Being able to hold your child with 1 hand, and fold the stroller with another, is great. But to make that truely work, you need the stroller to fold into thirds, so that the stroller handle is still in the air (ie, you don't have to bend to the ground to complete the fold). 
@@ -66,12 +66,12 @@ I recommend having a double stroller, even for one child, provided the seats are
 ### Attachments and Cup Holders
 I recommend buying a bunch of attachments for the stroller, especially cupholders. It sounds absurd, but 3 cupholders is the minimum that I would recommend. Every cupholder or stroller carry-all that you add will get filled up with stuff. Before you know it, you have 5 cups holders and you're still stuck carrying a coffee cup with one hand.
 
-Importantly, cargo capacity is a big factor in using a stroller. Our Vista is basically always full of empty tote bags, extra blankets and a baby carrier. It's the shopping cart when walking home from the grocery store. A bigger cargo capacity is better.
+Importantly, cargo capacity is a big factor in using a stroller. Our Vista is basically always full of stuff. It's the shopping cart when walking home from the grocery store, the diaper bag, and it just has lots and lots of stuff "just in case". A bigger cargo capacity is better.
 
 The Uppababy bassinet I purchased was a waste - we exclusively used it to hold a changing pad in our apartment. It didn't feel safe to take our baby near any roads or hills in that bassinet, since she wasn't secured in it. It's such a shame, because it felt like such a good idea, despite people telling us that we'd never use the bassinet.
 
 ### What I Bought
-I settled on buying an Uppababy stroller early in my search. I had seriously considered Bugaboo strollers - my family had at the time access to a discount on Bugaboo strollers, but I wasn't particularly impression by the wheel locking mechanism or the suspension on their 5 year old stroller (arguably this would not have been issues with a modern Bugaboo). I generally didn't like the folding mechanisms on Nuna strollers. Since I knew we would use the stroller a lot in New York, cost savings from a cheaper stroller didn't feel worth the lesser features. I see a lot of Uppababy strollers around me, and I've seen Uppababy strollers survive, so it felt really easy to decide on Uppababy.
+I settled on buying an Uppababy stroller early in my search. I had seriously considered Bugaboo strollers - at the time, my sister had access to a discount on Bugaboo strollers, but I wasn't particularly impressed by the wheel locking mechanism or the suspension on her 5 year old stroller (arguably this would not have been issues with a modern Bugaboo). I generally didn't like the folding mechanisms on Nuna strollers. Since I knew we would use the stroller a lot in New York, cost savings from a cheaper stroller didn't feel worth the lesser features (and some did have cheaper construction). I see a lot of Uppababy strollers around me, and I've seen Uppababy strollers survive, so it felt really easy to decide on Uppababy.
 
 I recommend the [Uppababy Minu](https://uppababy.com/strollers/lightweight/minu-v3/) and the [Uppababy Vista](https://uppababy.com/strollers/full-size/vista-v3/). Based on my research, it seems like all of the major stroller companies have strollers in these categories, so even if I picked Uppababy strollers, the reason for why I picked these strollers should carry over to other brands. These strollers also cover both extremes for our needs, so we have the right stroller for what we're going to do.
 
@@ -170,3 +170,7 @@ Socks are a good idea in cold weather, but my baby did not like her socks when i
 For pajamas, bamboo rayon or bamboo viscose seems to be the best material for one-piece, double-zipper pajama. My research says that bamboo does a better job at keeping a baby comfortable in hot and cold. Patterned pajamas are better for checking a video baby monitor to see if they are breathing. Double-zipper is much easier to undo when you need to change a baby in the middle of the night, and you don't want to completely remove their pajamas first.
 
 I don't have a recommended brand at the moment. [Honest Baby Clothing](https://honestbabyclothing.com) was my preferred brand for cheap, soft, cotton bodysuits, but they are apparently stopping their online shop (or exiting the clothing business, or doing some other radical change, it's very unclear).
+
+When I was buying nice outfits, I was almost exclusively buying onesie dresses from [Posh Peanut](https://poshpeanut.com). The material is really nice, and my baby looks very cute in her dresses. The one downside to dresses is that it's harder to crawl in a dress.
+
+Old Navy seems to be the best place for seasonal outfits. The material is cheaper cotton and seasonal outfits will only be appropriate for a couple of months, but given that they'll grow grow the clothes soon enough anyway, the lower price seems to justify the fact that you'll probably not reuse these clothes for a 2nd baby.
